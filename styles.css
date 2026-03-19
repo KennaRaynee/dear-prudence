@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'george', serif;
+  background-color: #f4f1ea;
+  color: #7c5959;
+  text-align: center;
+  background-color: #e7ddcf;
+}
+
+.site-header {
+    font-size: 40px;
+    text-decoration:none;
+    color: #572100; 
+    justify-content: center;
+}
+.link {
+    font-size: 40px;
+    text-decoration:none;
+    color: #572100; 
+    justify-content: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #572100; 
+    justify-content: center;
+}
+
+.divider {
+  width: 60%;
+  margin: 1rem auto;
+  border-top: 1px solid #b8b2a6;
+}
+
+.nav-links {
+  color: inherit;
+  font-size:14pt;
+  font-style: italic;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0;
+  word-spacing: 1cm;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #572100;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.nav-links a:hover {
+  border-bottom: 1px solid #1c7c5c1c;
+}
+
+.hero img {
+  background-size: cover;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  justify-content: center; 
+}
+
+.header {
+font-size: 150px;
+justify-content: center; 
+
+}
+
+.subhead { 
+font-size: 18px;
+justify-content: center; 
+list-style-type: none;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #75360d;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.home-sections {
+  max-width: 800px;
+  margin: 3rem auto;
+  display: grid;
+  gap: 3rem;
+}
+.ingredients {
+ font-size: 14px;
+ color: #75360d;
+ text-align:justify;
+ justify-content: center;
+}
+
+.section-block h2 {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.section-block a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.section-block a:hover {
+  text-decoration: underline;
+}
+
+.steps {
+    justify-content: center; 
+    color: #886161;
+    font-size: 0.9rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style-type:none
+}
+
+footer {
+  padding: 8cqb 1rem;
+  font-size: 12px;
+  color: #572100;
+  text-align: center;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .nav-links
+    flex-direction: column;
+  }
+  .divider {
+    width: 80%;
+}
